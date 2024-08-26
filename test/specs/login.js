@@ -7,7 +7,7 @@ describe('Test Saucedemo', () => {
     await $("#password").setValue("secret_sauce")
     await $("#login-button").click()
     await $("#add-to-cart-sauce-labs-backpack").click()
-    await browser.pause(10000)
+    await browser.pause(5000)
     // await expect(browser).toHaveUrl('https://www.saucedemo.com/inventory.html')
     // await expect(browser).toHaveTitle('Swag Labs')
     // await $("#add-to-cart-sauce-labs-backpack").click()
